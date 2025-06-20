@@ -1,0 +1,2 @@
+안녕하세요
+/usr/local/bin/python3 "/Users/ehdus/Desktop/파이썬 수업/5:12/73-파일쓰기(파일출력)-1-1402이도연.py"
