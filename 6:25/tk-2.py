@@ -10,3 +10,5 @@ lbl1.pack()
 lbl2.pack()
 lbl3.pack()
 lbl4.pack()
+
+window.mainloop()
