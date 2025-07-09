@@ -1,0 +1,22 @@
+from tkinter import *
+
+def show():
+    print(f'이름: {e1.get()}\n나이: {e2.get()}')
+
+window = Tk()
+Label(window, text="이름").grid(row=0)
+Label(window, text="나이").grid(row=1)
+
+e1=Entry(window)
+e2=Entry(window)
+
+e1.grid(row=0, column=1, columnspan=2)
+e2.grid(row=1, column=1, columnspan=2)
+
+# Button(window, text="종료", command=window.destroy).grid(row=2, column=1, sticky=W, pady=4)
+# Button(window, text="보이기", command=show).grid(row=2, column=2, sticky=W, pady=4)
+
+Button(window, text="종료", command=window.destroy, width=10).grid(row=2, column=0, padx=50, pady=10, sticky=W)
+Button(window, text="보이기", command=show, width=10).grid(row=2, column=1, padx=20, pady=10, sticky=W)
+
+window.mainloop()
